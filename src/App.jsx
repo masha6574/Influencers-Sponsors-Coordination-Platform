@@ -1,9 +1,9 @@
 import './index.css'
-
+import DeviceDisplay from "./DeviceDisplay";
 function App() {
   return (
     <div>
-      <h1 className="text-[2rem] bg-red-500 text-xl text-white">Hello World!!!</h1>
+      <DeviceDisplay />
     </div>
   )
 }
