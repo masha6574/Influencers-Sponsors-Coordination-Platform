@@ -18,7 +18,7 @@ const Card = () => {
 
             <div className="slider" style={{ '--width': '200px', '--height': '200px', '--quantity': '9' }}>
                 <div className="list">
-                    <div className="item" style={{ '--position': 1 }}><img src="/assets/slider2_1.png" alt="" /></div>
+                    <div className="item" style={{ '--position': 1 }}><img src="/assets/imresizer-1740030310249.jpg" alt="" /></div>
                     <div className="item" style={{ '--position': 2 }}><img src="/assets/slider2_2.png" alt="" /></div>
                     <div className="item" style={{ '--position': 3 }}><img src="/assets/slider2_3.png" alt="" /></div>
                     <div className="item" style={{ '--position': 4 }}><img src="/assets/slider2_4.png" alt="" /></div>

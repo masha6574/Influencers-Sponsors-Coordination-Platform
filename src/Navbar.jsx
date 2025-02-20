@@ -1,5 +1,5 @@
 // import React from 'react'
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div>
@@ -15,7 +15,7 @@ const Navbar = () => {
                             <input className="ml-2 outline-none bg-transparent font-medium" type="text" name="search" id="search" placeholder="Search..." />
                         </div>
                         <ul className="flex items-center space-x-6">
-                            <li className="font-semibold text-gray-700">Home</li>
+                            <Link className="font-semibold text-gray-700" to='/about'><li>About</li></Link>
                             <li className="font-semibold text-gray-700">Articles</li>
                             <li>
                                 {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
