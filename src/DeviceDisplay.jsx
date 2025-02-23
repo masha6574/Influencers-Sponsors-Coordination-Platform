@@ -5,6 +5,7 @@ const DevicesDisplay = () => {
     const [isHovered, setIsHovered] = useState(false);
 
     useEffect(() => {
+
         // This effect will trigger after the component has mounted
         const timer = setTimeout(() => {
             setIsHovered(true); // Trigger transition after the component is mounted
@@ -18,9 +19,7 @@ const DevicesDisplay = () => {
             <Navbar />
             <div className="relative">
                 {/* Laptop */}
-                <div
-                    className={`absolute top-0 left-[35%] w-198 h-120 bg-gray-800 rounded-lg shadow-lg transition-all duration-1000 ease-in-out ${isHovered ? "scale-105" : "scale-50"}`}
-                >
+                <div className={`absolute top-0 left-[35%] w-198 h-120 bg-gray-800 rounded-lg shadow-lg transition-all duration-1000 ease-in-out ${isHovered ? "scale-105" : "scale-50"}`}>
                     <div className="absolute top-2 left-2 text-white text-sm">
                         {/* Image added here */}
                         <img src="/assets/laptop_test_img.png" alt="Laptop Screen" className="w-full h-full object-cover rounded-lg" />
@@ -31,7 +30,7 @@ const DevicesDisplay = () => {
                         <img src="/assets/Phone_test_img.jpg" alt="Phone Screen" className="w-full h-full object-cover rounded-[40px]" />
                     </div>
                 </div>
-
+                
             </div>
             <div className="absolute top-[120%] overflow-x-hidden">
                 <Card />
