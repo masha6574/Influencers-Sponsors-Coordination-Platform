@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import Card from "./Card";
 import Navbar from "./Navbar";
-
 const DevicesDisplay = () => {
     const [isHovered, setIsHovered] = useState(false);
 
